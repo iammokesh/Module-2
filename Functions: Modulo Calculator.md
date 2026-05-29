@@ -11,9 +11,22 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+```python
+def modulo_calculator(a, b):
+    return a % b
 
-Add code Here
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+result = modulo_calculator(num1, num2)
+
+print("Remainder is:", result)
+```
+
 
 ## Output
+<img width="640" height="98" alt="WhatsApp Image 2026-05-29 at 6 44 51 PM" src="https://github.com/user-attachments/assets/be7493ff-f463-4a1e-b70d-4b54c5399b53" />
+
 
 ## Result
+By using python the code was executed successfully.
